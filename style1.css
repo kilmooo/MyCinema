@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color:black;
+}
+
+
+.logo{
+    display: inline-block;
+}
+.logo img{
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+   
+}
+
+.nav a{
+    padding: 10px;
+    width: 100px;
+    /* margin: 30px; */
+    /* text-align: center; */
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    /* padding: 20px 25px; */
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background: rgb(6, 6, 6);
+    color: rgb(201, 194, 194);
+}
+
+ul li a:hover {
+    background: white;
+    color: black;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+
+
+
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+#section1::before{
+    content: "";
+    background: url('martin4.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    font-size: 3.3rem;
+    color:rgb(94, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    
+}
+
+.section2::before{
+    content: "";
+    background: url('satyajit ray2.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+}
+
+.div3{
+    border: 2px solid  rgb(193, 189, 189);
+    margin-top: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: url('memoir of murder image.jpg') no-repeat center center/cover;
+    /* background: url('depositphotos_735281418-stock-photo-black-white-noise-texture-background.jpg') no-repeat center center/cover; */
+   
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    transition: all 1s;
+
+}
+#box1:hover{
+    
+    filter: drop-shadow(0px 0px 50px rgb(48, 204, 48));
+}
+
+#box2:hover{
+    
+    filter: drop-shadow(0px 0px 50px rgb(231, 102, 102));
+}
+
+#box3:hover{
+    
+    filter: drop-shadow(0px 0px 50px gold);
+}
+.box img{
+    /* border: 2px solid; */
+    width: 402px;
+    height: 300px;
+    padding: 40px;
+}
+
+.h-primary{
+    font-size: 4.3rem;
+    color: rgb(244, 240, 240);
+}
+
+.btn{
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:6px 20px;
+    border:2px solid rgb(150, 145, 145);
+    background-color: rgb(246, 246, 245);
+    margin: 17px;
+    font-size: 1.5rem;
+    color: rgb(118, 115, 115);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(122, 120, 120);
+    color: white;
+}
+
+
+.see{
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:6px 20px;
+    /* border:2px solid rgb(150, 145, 145); */
+    background-color: black;
+    margin: auto;
+    font-size: 1.5rem;
+    color: rgb(118, 115, 115);
+    cursor: pointer;
+    /* border-radius: 20px; */
+    width: 400px;
+
+
+}
+
+.see:hover{
+    background-color: white;
+    color: black;
+    transition: 1.4s;
+}
+.explore{
+    padding: 20px;
+    background-color:  rgb(193, 189, 189);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+#explore{
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(15, 13, 13);
+    border: solid 2px white;
+    padding: 6px 20px;
+    background-color: white;
+    border-radius: 20px;
+
+
+
+}
+
+#search{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#hov:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section {
+    max-width: 250px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+
+
+
+
+/* Base CSS remains the same above this line */
+
+/* Media Queries */
+
+/* Mobile (up to 576px) */
+@media (max-width: 576px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .nav {
+        flex-direction: column;
+    }
+    
+    .nav a {
+        padding: 8px 0;
+        font-size: 0.9rem;
+        width: auto;
+    }
+
+    #search {
+        width: 200px;
+        height: 25px;
+    }
+
+    /* Section Titles */
+    .h-primary, .section2 h1, .div3 h1 {
+        font-size: 2rem;
+    }
+
+    /* Section Heights */
+    #section1, .section2 {
+        height: 500px;
+    }
+
+    /* Box Image Sizes */
+    .box img {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* Footer Adjustments */
+    .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Tablet (up to 768px) */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        padding: 15px;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav a {
+        padding: 10px;
+        width: auto;
+        font-size: 1rem;
+    }
+    
+    /* Search Bar */
+    #search {
+        width: 250px;
+        height: 28px;
+    }
+
+    /* Section Adjustments */
+    #section1, .section2 {
+        height: 700px;
+    }
+
+    .h-primary, .section2 h1, .div3 h1 {
+        font-size: 3rem;
+    }
+
+    /* Explore Button */
+    .explore {
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+
+    /* Footer Adjustments */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+/* Small Desktop and Larger Tablets (up to 992px) */
+@media (max-width: 992px) {
+    /* Navbar Adjustments */
+    .nav a {
+        padding: 12px;
+        width: 100px;
+        font-size: 1rem;
+    }
+
+    /* Section Adjustments */
+    #section1, .section2 {
+        height: 800px;
+    }
+
+    .h-primary, .section2 h1, .div3 h1 {
+        font-size: 3.5rem;
+    }
+
+    /* Footer Adjustments */
+    .footer-container {
+        gap: 20px;
+    }
+
+    .footer-section ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Large Desktop (1200px and up) */
+@media (min-width: 1200px) {
+    /* No specific changes, but keeps design consistent on larger screens */
+}

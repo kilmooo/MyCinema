@@ -1,0 +1,205 @@
+
+
+
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .divi{
+    border: solid 2px black;
+    height: 500px;
+    width: 100%;
+} */
+img{
+    height: 438px;
+    width: 780px;
+}
+.img{
+    display: block;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    width: 780px;
+    height: 250px;
+    margin: auto;
+    
+}
+.p{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.explore{
+    text-align: center;
+    background-color: rgb(243, 235, 235);
+    width: 780px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+.explore:hover{
+    background-color: rgb(47, 45, 45);
+    color: white;
+}
+.explore a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: rgb(16, 15, 15);
+}
+.explore a:hover{
+    color: white;
+}
+.h1{
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Base Styles */
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+}
+
+.img {
+    display: block;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.explore {
+    text-align: center;
+    background-color: rgb(243, 235, 235);
+    max-width: 780px;
+    width: 100%;
+    margin: 20px auto 50px;
+    padding: 10px 0;
+}
+
+.explore:hover {
+    background-color: rgb(47, 45, 45);
+    color: white;
+}
+
+.explore a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(16, 15, 15);
+}
+
+.explore a:hover {
+    color: white;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Media Queries */
+
+/* Small Devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .p {
+        font-size: 1rem;
+    }
+
+    .explore a {
+        font-size: 1.4rem;
+    }
+
+    .h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .para, .explore {
+        max-width: 600px;
+    }
+
+    .p {
+        font-size: 1.2rem;
+    }
+
+    .explore a {
+        font-size: 1.6rem;
+    }
+
+    .h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Small Desktops (max-width: 992px) */
+@media (max-width: 992px) {
+    img {
+        max-width: 700px;
+    }
+
+    .para, .explore {
+        max-width: 700px;
+    }
+
+    .p {
+        font-size: 1.3rem;
+    }
+
+    .explore a {
+        font-size: 1.8rem;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Large Desktops (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .p {
+        font-size: 1.5rem;
+    }
+
+    .h1 {
+        font-size: 2.2rem;
+    }
+}

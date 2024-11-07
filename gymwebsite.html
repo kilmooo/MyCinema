@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bane Fitness</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url('2024-10-06 (72).png');
+            font-family:'roboto';
+        }
+        .left{
+            display: inline-block;
+            position: sticky;
+            top: 3px;
+        }
+        .left img{
+            width: 90px;
+        }
+        .mid{
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            left: 565px;
+            margin: auto;
+
+        }
+        .mid a{
+            text-decoration: none;
+            color: white;
+        }
+        .right{
+            font-size: 20px;
+            display: inline-block;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+
+        }
+        .right a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .form{
+            border: solid 3px white;
+            border-radius: 10px;
+            display: inline-block;
+            height: 470px;
+            width: 500px;
+            padding: 10px;
+            position: absolute;
+            left: 200px;
+            top: 140px;
+        }
+        .input{
+            /* border: solid 2px white; */
+            text-align: center;
+            padding: 20px;
+            color: black;
+            
+        }
+        #in{
+            padding: 3px;
+            width: 300px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            background-color: rgb(61, 59, 59);
+            color: white;
+        }
+    
+        #sub{
+            text-align: center;
+            width: 100px;
+            border: solid 2px white;
+            border-radius: 10px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        #btn{
+            border: solid black 5px;
+            border-radius: 10px;
+            background-color: rgb(61, 59, 59);
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+    <div class="left"><img src="gym logo.png" alt="gym logo"></div>
+    
+    <div class="mid">
+        
+        <nav>
+            <a href="#HOME">HOME</a>&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+            <a href="#ABOUT US">ABOUT US</a>&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+            <a href="#MEMBERSHIP">MEMBERSHIP</a>&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;
+            <a href="#CONTACT US">CONTACT US</a>
+        </nav>
+    </div>
+    <div class="right">
+        <button id="btn">CALL US</button>&ThickSpace;&ThickSpace;
+        <button id="btn">JOIN NOW</button>&ThickSpace;&ThickSpace;
+
+    </div>
+    </header>
+
+
+
+    <div>
+        
+    <div class="form">
+        <h1>Please Fill Up This Form</h1>
+        <form action="backend.php">
+            <div class="input"><input type="text" name="name"  placeholder="Enter your name" id="in"></div>
+            <div class="input"><input type="number" name="age" placeholder="Enter your age" id="in"></div>
+            <div class="input"><input type="text" name="gender" placeholder="Enter your gender" id="in">
+                <!-- <select name="gender" id=""> -->
+                    <!-- <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> -->
+            </div>
+            <div class="input"><input type="email" name="email address" placeholder="Enter your email address" id="in"></div>
+            <div class="input"><button id="in">SUBMIT</button></div>
+        </form>
+    </div>
+    </div>
+
+
+</body>
+</html>

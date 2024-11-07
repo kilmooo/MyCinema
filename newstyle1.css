@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.navbar { display: flex; align-items: center; background-color: black; height: 100px; }
+.logo img { height: 100px; }
+.nav { display: flex; align-items: center; gap: 20px; color: white; }
+.nav a, ul li a, #hov { padding: 10px; text-decoration: none; font-size: 1.1rem; color: white; }
+.nav a:hover, ul li a:hover, #hov:hover { background-color: white; color: black; }
+ul { list-style: none; }
+ul li { display: inline-block; position: relative; }
+ul li ul.dropdown { position: absolute; display: none; background: #111; }
+ul li:hover ul.dropdown { display: block; }
+.section-background::before { content: ""; position: absolute; width: 100%; height: 900px; background-size: cover; z-index: -1; }
+#section1::before { background: url('martin4.jpg') no-repeat center center; }
+.section2::before { background: url('satyajit ray2.webp') no-repeat center center; }
+.div3 { padding: 20px; border: 2px solid #c1c1c1; background: url('memoir of murder image.jpg') no-repeat center center/cover; }
+.section3 { display: flex; gap: 20px; }
+.box { transition: filter 0.3s ease; }
+#box1:hover { filter: drop-shadow(0px 0px 50px #30cc30); }
+#box2:hover { filter: drop-shadow(0px 0px 50px #e76666); }
+#box3:hover { filter: drop-shadow(0px 0px 50px gold); }
+.button { font-style: italic; font-weight: bold; padding: 6px 20px; font-size: 1.5rem; cursor: pointer; border-radius: 20px; }
+.btn, .see { background-color: #f6f6f5; color: #767373; border: 2px solid #969191; }
+.btn:hover, .see:hover { background-color: #7a7878; color: white; }
+.footer { background-color: #333; color: #fff; padding: 40px 0; text-align: center; }
+.footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px; }
+.footer-section { flex-basis: 200px; }
+.footer-section h4, .footer-section ul li a { color: #ccc; }
+.footer-bottom { background-color: #222; padding: 10px; }
+@media (max-width: 768px) { .navbar { flex-direction: column; } .footer-container { flex-direction: column; align-items: center; } .section3 { flex-direction: column; } #search { width: 200px; } .btn, .see { font-size: 1.2rem; } }
